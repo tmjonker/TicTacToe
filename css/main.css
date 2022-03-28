@@ -95,10 +95,11 @@ h1 {
 #b1, #b2, #b3, #b4, #b5,
 #b6, #b7, #b8, #b9 {
   width: 80px;
-  height: 52px;
+  height: 80px;
   margin: auto;
+  white-space: break-spaces;
   border: 1px solid gray;
-  border-radius: 6px;
+  border-spacing: 0;
   font-size: 30px;
   text-align: center;
 }
@@ -124,6 +125,7 @@ h1 {
 #main {
   text-align: center;
 }
+
 
 /* ==========================================================================
    Helper classes
